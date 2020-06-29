@@ -1,7 +1,7 @@
 body{
 	font-family: sans-serif;
 	margin: 0px;
-	overflow: hidden;
+
 }
 
 header{
@@ -28,6 +28,8 @@ nav div{
 
 nav ul{
 	list-style: none;
+	margin-top: 10px;
+	margin-bottom: 5px;
 
 }
 
@@ -45,29 +47,42 @@ nav ul a{
 
 }
 
-ul a: hover{
-	text-decoration: underline;
+a:hover{
+	background-color: #a1a09d;
 
+}
+
+
+a:active{
+	background-color: #294080;
 }
 
 .border {
 	background-color: transparent;
 	border: 1px #1b7ef7 solid;
 	text-align: center;
-	width: 400px;
+	width: 27%;
+	padding: 4%;
 
 }
 
 .border h3{
 	color: #1b7ef7;
+	font-size: 250%;
+	margin: 0px;
+
+}
+
+.border p{
+	font-size: 150%;
 }
 
 button {
 	background-color: #1b7ef7;
 	border: 1px #1b7ef7 solid;
 	border-radius: 1px 1px 1px 1px;
-	padding: 5px;
-	font-size: 15px;
+	padding: 6px;
+	font-size: 18px;
 }
 
 button a{
@@ -77,8 +92,16 @@ button a{
 
 .left {
 	float: left;
+	margin-left: 9%;
+	margin-right: 3%;
+	margin-top: 3%;
+	margin-bottom: 3%;
 }
 
 .right {
 	float: right;
+	margin-left: 3%;
+	margin-right: 9%;
+	margin-top: 3%;
+	margin-bottom: 3%;
 }
